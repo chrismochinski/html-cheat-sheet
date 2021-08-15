@@ -1,0 +1,78 @@
+/* style sheet terms and stuff  */
+
+/*
+
+Put on HTML page to link (see HTML page)
+<link rel="stylesheet" type="text/cdd" href="main.css" />
+
+
+IMPORTANT
+Hexadecimal color (#RRGGBB): Hexadecimal values that represent mixtures
+of red, green and blue. For example, red can be expressed with the hexadecimal
+value of #FF0000: the value ff represents red, 00 represents green, and 00
+represents blue.
+
+IMPORTANT
+RGB (Red, Green, Blue) colors: Color created by three numbers representing
+red, green, and blue. When mixed together, the three values create a specific
+color. For example: purple can be represented as rgb(128,0,128).
+
+
+COLOR stuff
+This decision is mostly based on personal preference.
+A few tips to help you decide:
+
+Named colors (example: cornflowerblue, orangered, gold, etc) only have 140
+colors to choose from, although the names may be easier to remember than
+strings of numbers or characters.
+
+Hexadecimal and rgb colors make it easier to get the specific/exact color
+you want (as they have ~16.7 million color choices).
+
+Hexadecimal colors are more compact than rgb colors and may be easier to
+copy from various color palette programs i.e. copying one number vs
+three numbers.
+---------------
+---------------------------
+FONT stuff
+-----------------------
+
+FONT SIZES = pixels (px), rems, or ems
+
+back up font "families" or font styles = "fallback
+
+pixel (px): Standard unit of measurement for sizing fonts and other
+HTML elements.
+
+
+rem: Represents the default font size for the web browser. Rems can be
+used to ensure that HTML elements scale in proportion to each other on various
+web browsers and screen sizes. On most web browsers, 1rem is equivalent to
+16px, 2rem is equivalent to 32px (a doubling), 3rem is equivalent to 48px
+(a tripling) and so on.
+
+
+em: A relative value that changes in proportion to the font-size of the
+element on which em is used. Because font-size is an inherited property,
+this usually means the em value will change in proportion to the font-size
+of the parent element unless a font-size is explicitly set on the element
+on which em is used. For example, if a parent element has font-size: 20px;,
+child elements with font-size: 1em; would be equivalent to 20px. Child
+elements with font-size: 0.5em; would be equivalent to 10px (a halving)
+and so on.
+
+CSS BACKGROUND IMAGE!!
+
+.hero {
+  background-image: url("https://content.codecademy.com/projects/make-a-website/lesson-2/bg.jpg");
+  background-size: cover;
+}      using 'background-size: cover' = ONLY VIEWABLE IN THAT DIV! SWEET!
+
+*/
+
+h1 {
+	font-size: 32px;
+  font-family: Palatino, 'Palatino Linotype', serif;
+  color: rgb(46,105,163); /* rgb */
+  color: #2e69a3 /* hex */
+}
